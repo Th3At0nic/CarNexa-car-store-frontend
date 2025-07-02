@@ -5,6 +5,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Button } from "antd";
 import { useAppDispatch, useAppSelector } from "../../redux/hooks";
 import { currentUser, logoutUser } from "../../redux/features/auth/authSlice";
+import carNexaLogo from "../../assets/CarNexaLogo.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,8 +24,12 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full custom-link-style">
         {/* Left: Logo */}
-        <Link to="/" className=" text-white text-2xl lg:text-4xl font-bold">
-          CarNexa
+        <Link to="/">
+          <img
+            src={carNexaLogo}
+            alt="Car Nexa Logo"
+            className="h-16 w-auto object-contain"
+          />
         </Link>
 
         {/* Right: Nav Links & Buttons (Hidden on Small Screens) */}
