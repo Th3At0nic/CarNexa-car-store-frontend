@@ -1,4 +1,4 @@
-# 🚗 CarNexa - Car Store – Frontend (Assignment 4)
+# 🚗 CarNexa - Car Store – Frontend
 
 **Live Frontend**: https://carstore-client.vercel.app/
 **Live Backend**: https://car-store-backend-assignment2.vercel.app/
